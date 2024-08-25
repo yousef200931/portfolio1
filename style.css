@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+    font-family:popins,sans-serif;
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+   scroll-behavior:soomth;
+   font-family:Cairo;
+}
+
+   header {
+     background-color: #f0f0f0;
+     width: 100%;
+     position: fixed;
+     z-index: 999;
+   display: flex;
+   justify-content:space-between;
+   align-items:center;
+   padding:10px 200px;
+}
+   
+   .logo{
+     text-decoration:none;
+     color: #0000ff;
+     text-transform: uppercase;
+   font-weight: 700;
+    font-size: 1.8em;
+ 
+}
+   .navigation a{
+   text-decoration:none;
+     color: #0000ff;
+     font-weight: 500px;
+     font-size:1.1em;
+   padding-left:30px;
+}
+   .navigation a:hover{
+   color:rgb(34, 171, 245);
+   font-weight: 800;
+   
+     
+}
+   section{
+ padding:100px 200px ;
+   }
+ img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+margin-left: 700px;
+}
+.mian {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image:url(imgs/down.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+
+
+   .mian h2{
+color: #f0f0f0;
+font-size: 1.4em;
+font-weight: 500;
+}
+   .mian h2 span{
+color: #130fee;
+margin-top: 20px;
+display: inline-block;
+font-size: 3em;
+font-weight: 600
+}
+   .mian h3{
+    color:#f0f0f0;
+    margin-top: 10px;
+    font-size:2em ;
+    font-weight:700px ;
+    margin-bottom:30px ;
+
+}
+.mian-btn{
+    color: #ffffff;
+    background-color: #00ff;
+    text-decoration: none;
+   font-size:1.1em ;
+   font-weight: 700;
+  display:inline-block;
+  padding: 0.9375em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  transition: 0.7s ease;
+}
+.mian-btn:hover{
+background-color: #0000b4;
+transform:scale(1.1,1.1) ;
+}
+.social-icons a{
+color: #f0f0f0;
+font-size: 1.7em;
+padding-right: 30px;
+margin-bottom: 25px;
+}
+.title{
+display: flex;
+  justify-content:center;
+  font-size:2.2em ;
+   font-weight: 800;
+   margin-bottom: 30px;
+   color: #2121ee;
+}
+.content{
+display:inline-block;
+justify-content:center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.card{
+  background-color: antiquewhite;
+  width: 21.25em;
+  box-shadow: 0px 5px 25px rgb(1, 1, 1 );
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  
+}
+.card:hover{
+  transform:scale(1.1) ;
+}
+.icon{
+  color: #2121ee;
+  font-size: 4em;
+  text-align: center;
+}
+.info {
+text-align: center;
+}
+.info h3{
+  color: #2121ee;
+  font-size:1.2em ;
+  font-weight:700 ;
+  margin:10px ;
+}
+.Contact.icon{
+font-size:4.5em ;
+
+}
+.Contact{
+  display:inline-block;
+  margin-left:120px;
+}
+.Contact.info.h3{
+
+  color: #000;
+}
+.footer{
+  background-color: #000;
+  color: #f0f0f0;
+  display: inline-block;
+  display: flex;
+  text-decoration: none;
+justify-content: space-between;
+width: 100%;
+height: 70px;
+}
+.footer.title{
+font-size: 1.3em;
+font-weight:200 ;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
